@@ -1,0 +1,49 @@
+
+
+body{background-color: #e9cbcbe0;}
+
+h1{color: rgb(56, 6, 6);}
+
+h1{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif; font-size: 60px; padding-top: 
+    2cm;padding-bottom: 2cm; padding-left: 5cm;
+padding-right: 15cm;letter-spacing: 0.5cm;}
+   
+h1{background-color: #ce7e7e; margin: 30px; border-radius: 2cm;}
+
+
+header{background-color: rgb(205, 180, 147);padding-top: 1cm;}
+
+h2{color: #500202e0;}
+
+main{background-color: rgb(205, 180, 147);}
+
+h2{background-color: #ce7e7ee0; margin: 30px; border-radius: 2cm;}
+p{margin-left: 5cm; margin-right: 5cm;font-size: 20px;}
+h2{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;padding-top: 
+    1cm;padding-bottom: 1cm; padding-left: 1cm;
+padding-right: 15cm;}
+
+img{margin-top: 2cm;margin-bottom: 2cm; margin-left: 12cm;}
+
+h3{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif; font-size: 30px; padding-top: 
+    1cm;padding-bottom: 1cm; padding-left: 3cm;
+padding-right: 15cm;}
+
+h3{background-color: #ce7e7e; margin: 30px; border-radius: 2cm;}
+
+table{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;padding-top: 1cap;padding-bottom: 1cap;
+    background-color: #ce7e7ee0}
+
+footer{padding-bottom: 5cm;padding-left: 5cm;padding-top: 3cm;}
+
+body{line-height: 2.0em;}
+
+
+/*It was very hard for me going for zero coding knoledge to create this page,
+however, I'm really happy with it. I know this is far from perfect,
+I found this very interesting, sometimes frustrating but when you can see the results
+ after hours of work it feels great! */
