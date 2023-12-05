@@ -6,68 +6,88 @@
     <title>New project GRACIELA</title>
     <link rel="stylesheet" href="styles.css">
 
+
 </head>
-
 <body>
+  <div class="header">
+    <div class="header-logo">GRACIELA</div>
+    <div class="header-list">
+      <ul class="flex-container nowrap">
+        <li class="odd" class="flex-item">About Me</li>
+        <li class="even" class="flex-item">Graphic Designer</li>
+        <li class="odd" class="flex-item">Drummer</li>
+      </ul>
+    </div>
+  </div>
 
-  <header>
-   <h1> GRACIELA  </h1>
-       <nav>
-            <ul>
-                <li><a rel="noopener" href="#About me">About me</a></li>
-                <li><a rel="noopener" href="#The designer">The designer</a></li>
-                <li><a rel="noopener" href="#The drummer">The drummer</a></li>
-            </ul>
-        </nav> 
-  </header>
-       <h2>ABOUT ME</h2>
- <main>
-     <p>I was born in Mexico city, I moved to Canada to Montreal in 2004, then in 2014 I moved to Calgary.
-        I've been working as a pastry chef for many years but what Ilike the most is to design special cakes
-        paint them with airbrush and sculpt figures in cakes.
-        I also enjoy playing music, I play percussions: drum set, marimba,any kind of druming. 
-        I'm studing Graphic design at 
-        <a href="http://www.sait.ca/programs-and-courses/diplomas/interactive-design-web-design-and-development">SAIT</a> because 
-        I love to be creative with an specific purpose.
-    </p>
-
-
-     <h2>THE GRAPHIC DESIGNER</h2>
-       <p>Graphic Designers bring visual concepts to life, informing and delivering messages through text,
-          graphics and image</P>
+  <div class="main">
+    <div class="contents" style="text-align:center">
+      <div class="content-item">
+        <h2>About Me</h2>
+        <p>I was born in Mexico city, I moved to Canada to Montreal in 2004, then in 2014 I moved to Calgary.
+          I've been working as a pastry chef for many years but what Ilike the most is to design special cakes
+          paint them with airbrush and sculpt figures in cakes.
+          I also enjoy playing music, I play percussions: drum set, marimba,any kind of druming. </p>
+      </div>
+      <div class="content-item">
+        <h2>Graphic Designer</h2>
+        <p> I'm studing Graphic design at <a href="http://www.sait.ca/programs-and-courses/diplomas/interactive-design-web-design-and-development">SAIT</a> I love to create with an specific purpose
+          Graphic Designers bring visual concepts to life, informing and delivering messages through text,
+          graphics and image.
+        </p>
         <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Adobe illustrator">
-     <h2>THE DRUMMER</h2> <a href="https://youtu.be/XeVLe4dX9V8">you tube video</a>
-       <P>Drumming is the sound or feeling of continuous beating.</P><P>"Collins COBUILD Advanced Learner’s Dictionary. Copyright © HarperCollins Publishers"</P>
+      </div>
+      <section id="drummer">
+        <h2><a href="https://youtu.be/XeVLe4dX9V8">Drummer</a></h2>
+        <p>Drumming is the sound or feeling of continious beating.</p>
         <img src="https://images.unsplash.com/photo-1588032786045-59cefda005c0?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGRy" alt="drum set player">
+
         <style>
-            table, th, td {
-              border:1px solid black;
-            }
-            </style>
-            <body>
-    <h3>PERCUSSION INSTRUMENTS TABLE</h3>
-            <table style="width:100%">
-              <tr>
-                <th>Instrument name</th>
-                <th>Type</th>
-                <th>Use</th>
-              </tr>
-              <tr>
-                <td>Marimba, Xylophone, Crotals</td>
-                <td>Mallets instrument</td>
-                <td>Orchestral</td>
-              </tr>
-              <tr>
-                <td>Congas, Djembe, Bongos</td>
-                <td>Hands instrument</td>
-                <td>Latin Music</td>
-              </tr>
-            </table>
-            </main>
-            <P></P>
-            <footer>
-                © GRACIELA RUVALCABA, 2023
-            </footer>
+          table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+          }
+  
+          td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+          }
+
+          tr:nth-child(even) {
+            background-color: #dddddd;
+          }
+          </style>
+
+        <h3>PERCUSSION INSTRUMENTS TABLE</h3>
+        <table style="width:100%" >
+          <tr>
           
-        </body>
+            <th>Instrument name</th>
+            <th>Type</th>
+            <th>Use</th>
+          </tr>
+          <tr>
+            <td>Marimba, Xylophone, Crotals</td>
+            <td>Mallets instrument</td>
+            <td>Orchestral</td>
+          </tr>
+          <tr>
+            <td>Congas, Djembe, Bongos</td>
+            <td>Hands instrument</td>
+            <td>Latin Music</td>
+          </tr>
+        </table><h3>
+          </tr>
+        </table>
+
+
+    </div>
+  </div>
+  </div>
+  <div class="footer">
+    <div class="footer-logo">© GRACIELA RUVALCABA, 2023</div>
+  </div>
+</body>
 </html>
