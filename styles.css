@@ -7,7 +7,7 @@ input, div, form {
 
 body {
     background-color: #e9cbcbe0;
-font-family:"Ephesis-Regular.";}
+font-family: 'Hedvig Letters Serif', serif;}
 
 li{ 
     list-style: none;
@@ -18,9 +18,10 @@ li{
  background-color: antiquewhite;
 }
 .header-logo {
-    font-size:50px;font-family: fantasy;
+    font-size:50px;
     float: left;
     padding: 20px 150px;
+    font-family: "Sofia", sans-serif;
 
 }
 .header-list li{
@@ -31,13 +32,17 @@ li{
 .flex-container{
     padding: 0;
     display: flex;
+    flex-flow: nowrap;
     display: -moz-box;
+    flex-direction: row-reverse;
 }
-.nowrap {
--webkit-flex-wrap: nowrap;
+.nowrap  { 
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
 
-}
-li.even { 
+li.even {
+
 background-color: indianred;
 }
 li.odd{
@@ -80,4 +85,9 @@ margin-top: 1200px;
     font-size: 25px;
 }
 
-/*I have corrected and add the missing elements required */
+/*I made several changes based in the assignment rubric:
+1. I organized in a better matter the CSS elements
+2. I'm adding this commenting
+3. Coluors implementation
+4. Google font implementation on the primary heading "GRACIELA"
+5. FLEX- container for mobile element on line 32 on */
