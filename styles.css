@@ -57,6 +57,19 @@ width: 1400px;
     border-bottom:2px solid antiquewhite;
     font-weight: 300;
 }
+button {
+    padding-top:12px;
+padding-bottom:12px;
+padding-left:24px;
+padding-right:24px;
+color:white;
+display:inline-block;
+opacity:0.8;
+background-color: burlywood;
+border-radius: 4px;
+opacity: 0.5;
+}
+
 
 #drummer{
 border: 2px solid antiquewhite;
