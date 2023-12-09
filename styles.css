@@ -62,15 +62,30 @@ button {
 padding-bottom:12px;
 padding-left:24px;
 padding-right:24px;
-color:white;
+color:black;
 display:inline-block;
 opacity:0.8;
-background-color: burlywood;
 border-radius: 4px;
 opacity: 0.5;
 }
 
+#btn-counter{
+    padding-top:12px;
+padding-bottom:12px;
+padding-left:24px;
+padding-right:24px;
+display:inline-block;
+opacity:0.8;
+border-radius: 4px;
+opacity: 0.5;
+color: black;
 
+
+}
+
+p text-counter{
+    font-weight: 4000;
+}
 #drummer{
 border: 2px solid antiquewhite;
 height:100px;

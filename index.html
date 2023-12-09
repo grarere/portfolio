@@ -47,24 +47,30 @@ document.getElementById('button').onmouseleave = () => {
       </div>
       <div class="content-item">
         <h2>Graphic Designer</h2>
-        <button id="btn-counter">
-          <p id="txt-counter"> 1</p>
-
-          
-        </button>
-        <script>
-          let count = 1;
-document.getElementById('btn-counter').onclick = () => {
-     count = count + 1;
-     document.getElementById('txt-counter').innerHTML = count
+         <button id="btn-counter">
+          <p id="txt-counter"> 0</p>
+    </button>
+     <script>
+          let count = 0
+ const buttonElement = document.getElementById('btn-counter')
+ const counterElement = document.getElementById('txt-counter')
+ buttonElement.onclick = () => {
+     count += 1
+     counterElement.innerHTML = count
+     if (count % 2 == 1 ) {
+            // Odd click count, set color to magenta
+            
+            document.getElementById('txt-counter').style.color = 'magenta';
+        } else {
+            // Even click count, set color to green
+            (count % 2 !== 1) 
+            console.log (count)
+            document.getElementById('txt-counter').style.color = 'blue';
+        }
 }
-        </script>
-<script>
 
-if (0 = 4 % 2) {
-     document.getElementById('id').classList.add('even') .style,color = "magenta";
-} else (1 = 5 % 2); {
-     document.getElementById('id').classList.add('odd').style,color = "blue";
+
+
 </script>
         <p> I'm studing Graphic design at <a href="http://www.sait.ca/programs-and-courses/diplomas/interactive-design-web-design-and-development">SAIT</a> I love to create with an specific purpose
           Graphic Designers bring visual concepts to life, informing and delivering messages through text,
@@ -77,6 +83,13 @@ if (0 = 4 % 2) {
       </div>
       <section id="drummer">
         <h2><a href="https://youtu.be/XeVLe4dX9V8">Drummer</a></h2>
+        <li id="List item">1</li>
+        <script>
+          for(let list item= 0; list item; <= 100; list item++){
+            console.log (list item)
+          }
+        </script>
+        
         <p>Drumming is the sound or feeling of continious beating.</p>
         <img src="https://images.unsplash.com/photo-1588032786045-59cefda005c0?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGRy" alt="drum set player">
 
